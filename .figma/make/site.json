@@ -1,0 +1,10 @@
+{
+  "description": "Explore tax, business, financial education, and real estate support, find guidance tailored to your needs, and connect with ARock to take the next step.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
