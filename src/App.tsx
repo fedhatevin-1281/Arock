@@ -151,11 +151,7 @@ function Logo({ inFooter = false }: { inFooter?: boolean }) {
   if (inFooter) {
     return (
       <a className="logo footer-logo" href="#home" aria-label="ARock Solutions Pro home">
-        <img src="/assets/arock-mark.png" alt="" />
-        <span>
-          <strong>ARock</strong>
-          <small>Solutions Pro</small>
-        </span>
+        <img src="/assets/arock-logo.png" alt="ARock Solutions Pro" />
       </a>
     )
   }
@@ -304,7 +300,7 @@ function HomePage() {
               Clarity for your next move
             </p>
             <h1 className="hero-step step-2">
-              Financial &amp; business support, <span>made simple.</span>
+              Financial &amp; Business support, <span>made simple.</span>
             </h1>
             <p className="hero-text hero-step step-3">
               Practical support for individuals, families and small businesses

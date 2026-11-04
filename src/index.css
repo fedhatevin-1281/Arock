@@ -140,11 +140,8 @@
 .header-logo img { height: 72px; width: auto; max-width: 280px; object-fit: contain; transition: height .25s ease; }
 .navbar.scrolled .header-logo img { height: 56px; }
 
-.footer-logo { display: inline-flex; align-items: center; gap: 10px; }
-.footer-logo img, footer .logo img { width: 52px; height: 52px; object-fit: contain; background: rgba(255,255,255,.95); border-radius: 50%; }
-.footer-logo span, footer .logo span { display: grid; gap: 4px; }
-.footer-logo strong, footer .logo strong { color: var(--white); font-size: 1.3rem; letter-spacing: -.04em; }
-.footer-logo small, footer .logo small { color: var(--gold); font-size: .64rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.footer-logo { display: inline-flex; align-items: center; }
+.footer-logo img, footer .logo img { height: 60px; width: auto; max-width: 250px; object-fit: contain; background: transparent; border-radius: 0; }
 .desktop-nav { display: flex; align-items: center; gap: 38px; }
 .desktop-nav a { position: relative; color: rgba(255, 255, 255, .88); font-size: .9rem; font-weight: 700; transition: color .2s; }
 .desktop-nav a:after { content: ''; position: absolute; left: 0; right: 100%; bottom: -8px; height: 2px; background: var(--gold); transition: right .25s; }
@@ -336,9 +333,6 @@ fieldset > p { color: var(--muted); font-size: .9rem; margin-top: 10px; margin-b
 .form-success > p:not(.eyebrow) { color: var(--muted); margin: 20px auto 30px; max-width: 520px; }
 
 footer { padding-top: 76px; color: #bdc5d1; background: var(--navy); }
-footer .logo strong { color: var(--white); }
-footer .logo small { color: var(--gold); }
-footer .logo img { background: rgba(255,255,255,.95); border-radius: 50%; }
 .footer-grid { display: grid; grid-template-columns: 1.6fr 1fr .75fr 1.4fr; gap: 55px; padding-bottom: 62px; }
 .footer-brand > p { max-width: 310px; margin-top: 20px; font-size: .88rem; }
 .footer-grid > div:not(.footer-brand) { display: flex; flex-direction: column; align-items: flex-start; gap: 13px; }
@@ -372,7 +366,7 @@ footer .logo img { background: rgba(255,255,255,.95); border-radius: 50%; }
   .navbar.scrolled { height: 68px; background: rgba(10, 68, 40, .98); }
   .header-logo img { height: 54px; }
   .navbar.scrolled .header-logo img { height: 44px; }
-  .footer-logo img, footer .logo img { width: 44px; height: 44px; }
+  .footer-logo img, footer .logo img { height: 48px; width: auto; max-width: 200px; }
   .desktop-nav { display: none; }
   .nav-actions > .btn { display: none; }
   .menu-btn { display: flex; }
